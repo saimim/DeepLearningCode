@@ -15,6 +15,7 @@ df = pd.read_csv('/content/Social_Network_Ads.csv')
 df = df.iloc[:,2:]
 df.head()
 
+
 import seaborn as sns
 
 sns.scatterplot(x = df.iloc[:,0],y = df.iloc[:,1])
